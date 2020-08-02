@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <form class="form" action="#" id="form-auth" name="form-auth">
+    <label class="form__label" for="form-auth__login">Логин</label>
+    <input class="form__input" type="text" id="form-auth__login" name="form-auth__login" title="Введите логин" required>
+    <label class="form__label" for="form-auth__password">Пароль</label>
+    <input class="form__input" pattern="[0-9]{5,}[^0-9]{2,}" type="password" id="form-auth__password" name="form-auth__password" title="Введите пароль" required>
+    <button type="submit" class="form__button">Войти</button>
+  </form>
+  <form class="form" action="#" id="form-reg" name="form-reg">
+    <label class="form__label" for="form-reg__email">E-Mail</label>
+    <input class="form__input" type="text" id="form-reg__email" name="form-reg__email" title="Введите E-Mail" required>
+    <label class="form__label" for="form-reg__login">Логин</label>
+    <input class="form__input" type="text" id="form-reg__login" name="form-reg__login" title="Введите логин" required>
+    <label class="form__label" for="form-reg__password">Пароль</label>
+    <input class="form__input" pattern="[0-9]{5,}[^0-9]{2,}" type="password" id="form-reg__password" name="form-reg__password" title="Введите пароль" required>
+    <label class="form__label" for="form-reg__password--repeat">Пароль(подтверждение)</label>
+    <input class="form__input" pattern="[0-9]{5,}[^0-9]{2,}" type="password" id="form-reg__password--repeat" name="form-reg__password--repeat" title="Введите пароль ещё раз" required>
+    <button type="submit" class="form__button">Зарегистрироваться</button>
+  </form>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

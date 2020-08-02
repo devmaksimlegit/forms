@@ -1,0 +1,40 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.form {
+  width: 500px;
+  border: 1px solid #666666;
+  padding: 5px;
+}
+
+.form__input {
+  display: block;
+  width: 250px;
+  border: 2px solid #000000;
+  margin: 5px 0;
+}
+
+.form__label {
+  display: block;
+}
+
+.form__button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px 20px;
+}
